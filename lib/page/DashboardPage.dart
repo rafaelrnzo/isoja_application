@@ -116,9 +116,9 @@ class _DashboardPage extends State<DashboardPage> {
                   child: Container(
                     child: Card(
                       shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(12.0),
+                        borderRadius: BorderRadius.circular(16.0),
                       ),
-                      color: bgColor,
+                      color: fieldBgColor,
                       child: Container(
                         margin: const EdgeInsets.symmetric(horizontal: 16.0),
                         child: Row(
@@ -136,7 +136,7 @@ class _DashboardPage extends State<DashboardPage> {
                                 activeToggleColor: bgColor,
                                 toggleColor: bgColor,
                                 activeColor: base,
-                                inactiveColor: bg,
+                                inactiveColor: base,
                                 width: width * 0.12,
                                 height: width * 0.07,
                                 value: _bluetoothState.isEnabled,
@@ -215,7 +215,7 @@ class _DashboardPage extends State<DashboardPage> {
                           ),
                           child: Container(
                             height: width / 1.5,
-                            color: bgColor,
+                            color: fieldBgColor,
                             child: Container(
                               margin: const EdgeInsets.all(20.0),
                               child: Column(
